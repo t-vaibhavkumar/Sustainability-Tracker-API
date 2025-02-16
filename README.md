@@ -1,1 +1,1 @@
-# -Sustainability-Tracker-API-
+# Sustainability-Tracker-API
