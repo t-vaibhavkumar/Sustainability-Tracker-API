@@ -1,0 +1,13 @@
+<h2>Add Sustainability Action</h2>
+<form (submit)="addAction()">
+  <label>Action:</label>
+  <input type="text" [(ngModel)]="action" name="action" required /><br /> <!-- ✅ Added name attribute -->
+
+  <label>Date:</label>
+  <input type="date" [(ngModel)]="date" name="date" required /><br /> <!-- ✅ Added name attribute -->
+
+  <label>Points:</label>
+  <input type="number" [(ngModel)]="points" name="points" required /><br /> <!-- ✅ Added name attribute -->
+
+  <button type="submit">Add Action</button>
+</form>

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "action": "Carpooling",
+    "date": "2025-01-08",
+    "points": 50
+  },
+  {
+    "id": 2,
+    "action": "Carpooling",
+    "date": "2025-01-08",
+    "points": 50
+  },
+  {
+    "id": 3,
+    "action": "cycling",
+    "date": "2025-02-07",
+    "points": 80
+  },
+  {
+    "id": 4,
+    "action": "joggin",
+    "date": "2025-02-13",
+    "points": 10
+  }
+]
