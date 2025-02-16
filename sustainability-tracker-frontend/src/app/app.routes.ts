@@ -1,9 +1,9 @@
 import { Routes } from '@angular/router';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { AddActionComponent } from './components/add-action.component';
-import { ActionsListComponent } from './components/actions-list.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: '/actions-list', pathMatch: 'full' },  // Default homepage
-  { path: 'add-action', component: AddActionComponent },  // Add action page
-  { path: 'actions-list', component: ActionsListComponent }  // View all actions
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'add-action', component: AddActionComponent }
 ];
