@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "name": "sustainability-tracker",
+  "version": "1.0.0",
+  "description": "tracks actions with points",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-vaibhavkumar/Sustainability-Tracker-API.git#main"
+  },
+  "author": "Vaibhav Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t-vaibhavkumar/Sustainability-Tracker-API/issues"
+  },
+  "homepage": "https://github.com/t-vaibhavkumar/Sustainability-Tracker-API/tree/main#readme"
+}
